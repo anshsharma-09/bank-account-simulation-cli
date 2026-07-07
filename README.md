@@ -1,55 +1,88 @@
+Here's a professional, copy-paste-ready `README.md` for your project.
+
+````markdown
 # 💳 Bank Account Simulation CLI
 
-A sleek and interactive **Command-Line Interface (CLI)** banking application built with Java.  
-Designed for speed (**O(1)** lookups), scalability, and a professional user experience using **ANSI colors** for an attractive terminal interface.
+A console-based banking application built with **Java** that demonstrates **Object-Oriented Programming (OOP)**, **Java Collections**, and **Exception Handling**. The application provides essential banking operations through an interactive, menu-driven Command-Line Interface (CLI).
 
 ---
 
 ## ✨ Features
 
-- **Create Accounts** – Savings or Current
-- **Deposit & Withdraw** with instant balance updates
-- **Fund Transfer** between accounts
-- **Mini-Statement** showing last N transactions
-- **Apply Interest** to savings accounts
-- **List All Accounts** in a colorful tabular format
-- Preloaded **sample accounts** for quick testing
-- Fully menu-driven CLI — no GUI needed
+- Create Savings and Current accounts
+- Deposit and withdraw funds
+- Transfer money between accounts
+- View account details and balance
+- Generate mini statements with transaction history
+- Apply interest to savings accounts
+- List all accounts
+- Input validation and exception handling
+- ANSI color-based command-line interface
+
+---
+
+## 🛠️ Tech Stack
+
+- Java
+- Object-Oriented Programming (OOP)
+- Java Collections Framework
+- Exception Handling
 
 ---
 
 ## 📂 Project Structure
 
-```aiignore
+```text
 Bank-Account-CLI/
 ├── README.md
 ├── .gitignore
 ├── images/
-│ └── output.png
+│   └── output.png
 ├── src/
-│ ├── Main.java
-│ ├── model/
-│ │ ├── Account.java
-│ │ └── Transaction.java
-│ ├── service/
-│ │ └── Bank.java
-│ └── util/
-│ └── ConsoleColors.java
+│   ├── Main.java
+│   ├── ConsoleColors.java
+│   ├── model/
+│   │   ├── Account.java
+│   │   └── Transaction.java
+│   └── service/
+│       └── Bank.java
 ```
 
+---
+
+## 🚀 How to Run
+
+### Clone the repository
+
+```bash
+git clone https://github.com/anshsharma-09/bank-account-simulation-cli.git
+```
+
+### Navigate to the project
+
+```bash
+cd bank-account-simulation-cli
+```
+
+### Compile the project
+
+```bash
+javac src/**/*.java
+```
+
+### Run the application
+
+```bash
+java src.Main
+```
+
+> Alternatively, open the project in **IntelliJ IDEA** or **VS Code** and run `Main.java`.
 
 ---
 
-## 🖥 How to Run
+## 📋 Sample Menu
 
-**Open as Java Project**
-   ```bash
-   "Run Main.java after opening project as IntelliJ project"
-   ```
-   
----
-## 📜 Sample Menu (CLI Output)
-````
+```text
 =========== BANK MENU ===========
 1. Create Account
 2. View Account
@@ -60,23 +93,40 @@ Bank-Account-CLI/
 7. List All Accounts
 8. Apply Interest
 9. Exit
-
- ````
-! The menu is shown separately here to keep the output concise and easy to follow. !
-
----
-## 📸 Example Output
-Below is an example of the CLI in action (with ANSI colors):
-![Console Output](./images/output.png)
----
-## 🔮 Future Enhancements
-
-I am open to suggestions and plan to continue developing this platform.
+```
 
 ---
 
-## 🤝 Contact
+## 📸 Sample Output
 
-### 🧑‍💻 Isa Shaikh - [isashaikh2005@gmail.com](mailto:isashaikh2005@gmail.com)
+![Bank Account CLI Output](images/output.png)
 
-### 🔗Project Link: [Bank-Account-Command-Line-App](https://github.com/IsaShaikh/Bank-Account-CLI)
+---
+
+## 📚 Concepts Used
+
+- Classes and Objects
+- Encapsulation
+- Inheritance
+- Java Collections
+- Exception Handling
+- File Organization
+- Menu-driven Programming
+
+---
+
+## 🔮 Future Improvements
+
+- Database integration (MySQL)
+- User authentication
+- Persistent data storage
+- Transaction search and filters
+- GUI version using JavaFX or Swing
+
+---
+
+## 👨‍💻 Author
+
+**Ansh Sharma**
+
+GitHub: https://github.com/anshsharma-09
